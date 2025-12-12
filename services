@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Expertise | Agile Transformation Expert</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Services Page Specific Styles */
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .role-block {
+            padding: 25px;
+            border-radius: 12px;
+            border: 3px solid;
+            box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        
+        .role-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.15);
+        }
+        
+        .role-block h3 {
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px dashed;
+        }
+
+        /* Color Coding for Roles (Databricks Inspired) */
+        .role-agile-leader { border-color: var(--color-navy); background-color: var(--color-light); }
+        .role-agile-leader h3 { color: var(--color-navy); border-bottom-color: var(--color-teal); }
+
+        .role-scrum-master { border-color: var(--color-teal); background-color: #e6f9f4; /* Light Teal */ }
+        .role-scrum-master h3 { color: var(--color-teal); border-bottom-color: var(--color-navy); }
+
+        .role-change-agent { border-color: var(--color-red); background-color: #fce7e8; /* Light Red */ }
+        .role-change-agent h3 { color: var(--color-red); border-bottom-color: var(--color-navy); }
+
+        .role-mentor { border-color: var(--color-navy); background-color: var(--color-white); }
+        .role-mentor h3 { color: var(--color-navy); border-bottom-color: var(--color-red); }
+        
+        .role-block ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .role-block ul li:before {
+            content: '✓'; /* Custom bullet point */
+            color: var(--color-red); 
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="cases.html">Case Studies</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="https://OksanaAgile.github.io/Agile-Transformation-Agent/" target="_blank">Public Portfolio</a>
+        </div>
+    </nav>
+
+    <header class="container section-block" style="text-align: center; background-color: var(--color-teal); color: var(--color-white); border-color: var(--color-navy);">
+        <h1 style="color: var(--color-white); border: none;">The Agile Transformation Expert: Senior Service Offerings</h1>
+        <p>My expertise is leveraged across the organization, functioning as the connective tissue between strategy and execution.</p>
+        <a href="mailto:youremail@example.com" class="cta-button" style="background-color: var(--color-red);">Book a Strategy Session</a>
+    </header>
+
+    <section class="container section-block">
+        <h2>My Role: The Agile Transformation Hub</h2>
+        <p style="text-align: center;">I act as a servant leader, coaching and enabling individuals at all levels to foster a culture of sustained agility and high-performance flow.</p>
+        
+        <div style="text-align: center; margin-top: 20px; padding: 20px; border: 1px dashed var(--color-navy);">
+             ****
+             <p><small style="color: gray;">Visualizing the four critical roles connecting Dev Teams, POs, and Stakeholders for seamless flow.</small></p>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Senior Expertise & Deliverables</h2>
+        <div class="expertise-grid">
+            
+            <div class="role-block role-agile-leader">
+                <h3>1. Agile Leader & Strategist</h3>
+                <p>Focus on C-level alignment, organizational design, and defining the transformation vision.</p>
+                <ul>
+                    <li>✓ **Transformation Roadmap:** Designing and executing multi-year scaling strategies (SAFe/LeSS/Custom).</li>
+                    <li>✓ **Value Stream Mapping:** Identifying bottlenecks and optimizing end-to-end flow efficiency.</li>
+                    <li>✓ **Metrics Definition:** Establishing business-driven metrics (Value, Flow, Quality) to track ROI.</li>
+                </ul>
+            </div>
+
+            <div class="role-block role-scrum-master">
+                <h3>2. Scrum Master / Flow Facilitator</h3>
+                <p>Optimizing Dev Team performance, removing systemic impediments, and enhancing collaboration.</p>
+                <ul>
+                    <li>✓ **High-Flow Coaching:** Implementing advanced Scrum/Kanban practices (WIP limits, Swarming).</li>
+                    <li>✓ **Systemic Impediment Removal:** Addressing blockers that cross multiple teams or organizational boundaries.</li>
+                    <li>✓ **DevOps Partnership:** Coaching teams to improve Definition of Done (DoD) through CI/CD adoption.</li>
+                </ul>
+            </div>
+
+            <div class="role-block role-change-agent">
+                <h3>3. Change Agent & Cultural Architect</h3>
+                <p>Driving mindset shifts across the organization, promoting psychological safety and continuous learning.</p>
+                <ul>
+                    <li>✓ **Leadership Buy-in:** Coaching executives to model Servant Leadership behavior.</li>
+                    <li>✓ **Community of Practice (CoP):** Establishing and leading CoPs for Scrum Masters and POs.</li>
+                    <li>✓ **Resistance Management:** Strategically addressing organizational inertia and cultural blockers.</li>
+                </ul>
+            </div>
+
+            <div class="role-block role-mentor">
+                <h3>4. Mentor & Servant Leader</h3>
+                <p>Dedicated coaching for Product Owners (PO) and individual team members for sustainable growth.</p>
+                <ul>
+                    <li>✓ **PO Mentorship:** Coaching on maximizing ROI, effective stakeholder management, and story mapping.</li>
+                    <li>✓ **Stakeholder Engagement:** Facilitating effective communication between business and delivery.</li>
+                    <li>✓ **Skill Development:** Mentoring team members to take on new responsibilities (e.g., technical coaching).</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background-color: var(--color-navy); color: var(--color-white); margin-top: 40px;">
+        &copy; 2025 OksanaAgile. Agile Transformation Agent.
+    </footer>
+
+</body>
+</html>
