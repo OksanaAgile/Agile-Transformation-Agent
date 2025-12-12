@@ -1,0 +1,90 @@
+/* style.css */
+
+/* --- Color Variables --- */
+:root {
+    --color-navy: #003366; /* Primary Dark */
+    --color-red: #DC3545; /* Primary Accent */
+    --color-teal: #20c997; /* Secondary Accent (Teal/Green) */
+    --color-white: #FFFFFF;
+    --color-light: #f8f9fa;
+    --color-text: #333333;
+}
+
+/* --- Base Sketch/Infographic Style --- */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--color-light); /* Light Gray background */
+    color: var(--color-text);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: var(--color-navy);
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px; /* Slight roundness for sketch style */
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- Infographic/Section Blocks --- */
+.section-block {
+    background-color: var(--color-white);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px; /* Prominent rounded corners */
+    border: 3px solid var(--color-navy); /* Sketch-like border */
+    box-shadow: 5px 5px 0px var(--color-red); /* Offset shadow for 3D/sketch effect */
+}
+
+/* --- Featured Elements --- */
+.feature-card {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #A32938; /* Darker Red */
+}
+
+/* --- Headings --- */
+h1 {
+    color: var(--color-navy);
+    border-bottom: 3px dashed var(--color-teal); /* Infographic line */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
