@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Team Agile Transformation</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* Specific styles for this infographic page */
+        .infographic-block {
+            background-color: var(--color-white);
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border: 2px solid var(--color-navy);
+            box-shadow: 3px 3px 0px var(--color-teal); /* Subtle sketch shadow */
+            height: 100%; /* Ensures blocks align well in grid */
+        }
+        
+        .infographic-block h3 {
+            color: var(--color-red);
+            border-bottom: 2px solid var(--color-light);
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        /* Layout for the 4-quadrant infographic design */
+        .infographic-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* Metrics Display */
+        .metrics-card-container {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .metric-item {
+            padding: 10px;
+            border-radius: 8px;
+            background-color: var(--color-light); /* Highlight metrics */
+            border: 1px dashed var(--color-navy);
+            flex: 1; /* Equal width */
+            margin: 0 5px;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--color-teal); /* Use the teal color for impact */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="cases.html">Case Studies</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="https://OksanaAgile.github.io/Agile-Transformation-Agent/" target="_blank">Public Portfolio</a>
+        </div>
+    </nav>
+
+    <header class="container section-block" style="text-align: center; background-color: var(--color-navy); color: var(--color-white);">
+        <h1 style="color: var(--color-teal); border: none;">Case Study: High-Flow Team Transformation</h1>
+        <p>Turning a 10-person delivery team into a predictable, highly-aligned, and efficient unit over a 3-month period.</p>
+    </header>
+
+    <div class="container infographic-grid">
+        
+        <div class="infographic-block">
+            <h3>1. The Challenge (Situation)</h3>
+            <p><strong>The Team:</strong> 10 people (Devs, QA, DevOps, PO).</p>
+            <p><strong>Pain Points:</strong></p>
+            <ul>
+                <li>**Inconsistent Delivery:** Unpredictable release schedules and frequent scope changes.</li>
+                <li>**Bottlenecks:** QA and DevOps cycles were highly sequential and manual.</li>
+                <li>**Low Morale:** Lack of shared ownership and blurry definitions of 'Done' (DoD/DoR).</li>
+            </ul>
+        </div>
+
+        <div class="infographic-block" style="border-color: var(--color-red); box-shadow: 3px 3px 0px var(--color-navy);">
+            <h3>2. The Strategy & Visual Plan</h3>
+            <p><strong>Focus:</strong> Embed Scrum principles and enhance Engineering practices.</p>
+            <ol>
+                <li>**Phase 1: Foundation:** Intensive Scrum training for the team and PO. Redefining DoR/DoD.</li>
+                <li>**Phase 2: Flow:** Implementing Kanban on the team level, limiting WIP, and visualizing bottlenecks.</li>
+                <li>**Phase 3: Automation:** Introducing pair-programming and CI/CD pipeline improvements (DevOps coaching).</li>
+            </ol>
+            <p style="text-align: center; margin-top: 20px;">
+                **** <small style="color: gray;">(Replace this with a simple image file/diagram)</small>
+            </p>
+        </div>
+
+        <div class="infographic-block">
+            <h3>3. Key Metrics & Tracking</h3>
+            <p>Metrics were chosen to reflect **Flow, Quality, and Value** and tracked weekly:</p>
+            <ul>
+                <li>**Flow:** Cycle Time (from Commit to Done), Throughput (Stories per Sprint).</li>
+                <li>**Quality:** Defect Escape Rate (Defects found in Production), Automated Test Coverage.</li>
+                <li>**Value:** Stakeholder Satisfaction Score (Survey data), Team Happiness Index (eNPS).</li>
+            </ul>
+            <p style="font-style: italic;">*These metrics ensured a quantitative measure of agility improvement, not just activity.*</p>
+        </div>
+
+        <div class="infographic-block" style="background-color: var(--color-teal); color: var(--color-white); border-color: var(--color-navy);">
+            <h3 style="color: var(--color-white); border-bottom-color: rgba(255, 255, 255, 0.3);">4. Achieved Measurable Results (Result)</h3>
+            
+            <div class="metrics-card-container">
+                <div class="metric-item">
+                    <div class="metric-value" style="color: var(--color-navy);">45%</div>
+                    <div>Cycle Time Reduction</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value" style="color: var(--color-red);">50%</div>
+                    <div>Throughput Increase</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value" style="color: var(--color-navy);">12pts</div>
+                    <div>Team eNPS Increase</div>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px;">**Summary:** The team moved from 3-week highly unpredictable delivery to a consistent 2-week cycle with automated deployment, improving developer morale and stakeholder trust.</p>
+        </div>
+
+    </div> <div class="container" style="text-align: center; margin-top: 40px;">
+        <a href="cases.html" class="cta-button">← Back to All Case Studies</a>
+    </div>
+
+    <footer style="text-align: center; padding: 20px; background-color: var(--color-navy); color: var(--color-white); margin-top: 40px;">
+        &copy; 2025 Oksana Fadyeyeva. Agile Transformation Agent.
+    </footer>
+
+</body>
+</html>
